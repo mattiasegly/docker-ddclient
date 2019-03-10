@@ -8,11 +8,11 @@ ssl=yes
 
 #Check IP
 use=web
-web=dyndns.loopia.se/checkip
+web=https://dyndns.loopia.se/checkip
 web-skip='Current IP Address:'
 
 #Update IP
-server=dyndns.loopia.se
+server=https://dyndns.loopia.se
 login=$DOMAIN
 password=$PASSWORD
 
