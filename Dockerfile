@@ -3,6 +3,7 @@ FROM balenalib/rpi:buster
 RUN [ "cross-build-start" ]
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
+	libio-socket-ssl-perl \
 	ddclient \
 && rm -rf /var/lib/apt/lists/*
 
