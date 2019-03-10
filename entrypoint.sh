@@ -3,7 +3,7 @@
 echo "Create example conf if it doesn't exist..."
 if [ ! -f /ddclient/ddclient.conf ]; then
 cat > /ddclient/ddclient.conf << EOF
-daemon=300
+daemon=86400
 ssl=yes
 
 #Check IP
