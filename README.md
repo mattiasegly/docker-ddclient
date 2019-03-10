@@ -1,5 +1,5 @@
 # docker-rpi-ddclient
-Raspberry Pi Docker Container for Dynamic DNS Updates<BR>
+Raspberry Pi Docker Container for Loopia DynDNS Updates<BR>
 Creates a config to set and update the IP address for your Loopia domain.
 
 Run with:<BR>
