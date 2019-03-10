@@ -6,17 +6,18 @@ cat > /ddclient/ddclient.conf << EOF
 daemon=300
 ssl=yes
 
-protocol=dyndns2
-custom=yes
-server=dyndns.loopia.se
-use=web, web=dyndns.loopia.se/checkip, 
+#Check IP
+use=web
+web=dyndns.loopia.se/checkip
 web-skip='Current IP Address:'
 
+#Update IP
+server=dyndns.loopia.se
 login=$DOMAIN
 password=$PASSWORD
 
+#Specify hostnames
 $DOMAIN
-wildcard=yes
 EOF
 fi
 
