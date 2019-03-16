@@ -1,3 +1,4 @@
+#Using stretch because of an SSL error on buster
 FROM balenalib/rpi:stretch
 RUN [ "cross-build-start" ]
 
