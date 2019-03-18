@@ -8,4 +8,5 @@ docker run -d -e "DOMAIN=yourdomain.tld" -e "PASSWORD=cantguessthis" mattiasegly
 If changes to the config file is necessary, the directory could be mounted by adding:<BR>
 --mount type=bind,src=/some/path,dst=/ddclient
 
-I know nothing about code, so assume that everything here sets the world on fire. Use at your own peril.
+I know nothing about code, so assume that everything here sets the world on fire.<BR>
+Use at your own peril.
