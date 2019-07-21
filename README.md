@@ -1,9 +1,9 @@
-# docker-rpi-ddclient
-Raspberry Pi Docker Container for Loopia DynDNS Updates<BR>
+# docker-ddclient
+Docker Container for Loopia DynDNS Updates<BR>
 Creates a config to set and update the IP address for your Loopia domain.
 
 Run with:<BR>
-docker run -d -e "DOMAIN=yourdomain.tld" -e "PASSWORD=cantguessthis" mattiasegly/rpi-ddclient
+docker run -d -e "DOMAIN=yourdomain.tld" -e "PASSWORD=cantguessthis" mattiasegly/ddclient
 
 If changes to the config file is necessary, the directory could be mounted by adding:<BR>
 --mount type=bind,src=/some/path,dst=/ddclient
