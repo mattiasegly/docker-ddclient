@@ -1,5 +1,4 @@
-#Using stretch because of an SSL error on buster
-FROM balenalib/rpi:stretch
+FROM balenalib/rpi:buster
 RUN [ "cross-build-start" ]
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
