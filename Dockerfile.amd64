@@ -1,6 +1,8 @@
 #Using stretch because of curl SSL error on buster
 FROM debian:stretch
 
+ARG DEBIAN_FRONTEND=noninteractive
+
 RUN apt-get update && apt-get install -y --no-install-recommends \
 	ca-certificates \
 	libio-socket-ssl-perl \
