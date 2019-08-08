@@ -12,6 +12,7 @@ web=https://dyndns.loopia.se/checkip
 web-skip='Current IP Address:'
 
 #Update IP
+protocol=dyndns2
 server=dyndns.loopia.se
 login=$DOMAIN
 password=$PASSWORD
