@@ -1,5 +1,5 @@
 #Using stretch because of curl SSL error on buster
-FROM balenalib/rpi:stretch
+FROM balenalib/rpi:buster
 RUN [ "cross-build-start" ]
 
 ARG DEBIAN_FRONTEND=noninteractive
