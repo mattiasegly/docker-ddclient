@@ -15,7 +15,7 @@ RUN chmod +x /usr/local/bin/entrypoint.sh
 
 RUN [ "cross-build-end" ]
 
-#VOLUME /ddclient
+VOLUME /ddclient
 
 ENTRYPOINT ["entrypoint.sh"]
 CMD ["ddclient", "-foreground", "-verbose", "-file", "/ddclient/ddclient.conf"]
