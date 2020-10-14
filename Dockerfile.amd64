@@ -1,9 +1,8 @@
-FROM debian:buster
+FROM mattiasegly/base-image:amd64
 
 ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-	ca-certificates \
 	libio-socket-ssl-perl \
 	ddclient \
 && rm -rf /var/lib/apt/lists/*
