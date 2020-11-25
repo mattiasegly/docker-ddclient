@@ -1,5 +1,4 @@
-FROM mattiasegly/base-image:buster-arm
-RUN [ "cross-build-start" ]
+FROM mattiasegly/base-image:buster-386
 
 ARG DEBIAN_FRONTEND=noninteractive
 
@@ -10,8 +9,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 COPY entrypoint.sh /usr/local/bin
 RUN chmod +x /usr/local/bin/entrypoint.sh
-
-RUN [ "cross-build-end" ]
 
 VOLUME /ddclient
 
