@@ -1,4 +1,4 @@
-FROM mattiasegly/base-image:buster-386
+FROM mattiasegly/base-image:bullseye-386
 
 ARG DEBIAN_FRONTEND=noninteractive
 
