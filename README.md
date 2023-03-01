@@ -1,5 +1,5 @@
 # rpi-ddclient
-Docker Container for Loopia DynDNS Updates.<BR>
+Docker container for Loopia DynDNS updates.<BR>
 Multi-arch build using balena's Raspberry Pi image and docker's official Debian image.
 
 Creates a config to set and update the IP address for your Loopia domain.<BR>
