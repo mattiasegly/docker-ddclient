@@ -8,8 +8,10 @@ If changes to the config file is necessary, the directory could be mounted by ad
 
 Run with:<BR>
 docker run -d \\\
--e "DOMAIN=yourdomain.tld" \\\
+-e "USER=yourdomain.tld" \\\
 -e "PASSWORD=cantguessthis" \\\
+-e "HOSTNAME=fqdn.domain.tld" \\\
+--restart always \\\
 mattiasegly/rpi-ddclient:latest
 
 I know nothing about code, so assume that everything here sets the world on fire.<BR>

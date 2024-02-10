@@ -14,11 +14,11 @@ web-skip='Current IP Address:'
 #Update IP
 protocol=dyndns2
 server=dyndns.loopia.se
-login=$DOMAIN
+login=$USER
 password=$PASSWORD
 
 #Specify hostnames
-$DOMAIN
+$HOSTNAME
 EOF
 fi
 
